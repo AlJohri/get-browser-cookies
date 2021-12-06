@@ -6,7 +6,7 @@ Uses the [`browser_cookie3`](https://github.com/borisbabic/browser_cookie3) pack
 
 ```
 # Install via pip
-pip install get-browser-cookies
+pip3 install --user get-browser-cookies
 
 # Or install via pipx
 pipx install get-browser-cookies
