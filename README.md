@@ -37,9 +37,18 @@ source .venv/bin/activate
 pip install -r requirements-dev.txt
 ```
 
-Push
+Release
 
 ```
+# Activate venv
+source .venv/bin/activate
+
+# Delete old builds
+rm -rf build dist
+
+# Increment version
+vim get_browser_cookies/version.py
+
 # Build package
 python setup.py sdist bdist_wheel
 
